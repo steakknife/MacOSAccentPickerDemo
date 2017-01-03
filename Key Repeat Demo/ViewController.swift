@@ -10,10 +10,17 @@ import Cocoa
 
 class ViewController: NSViewController {
 
+	@IBOutlet weak var text: NSTextField!
+
 	override func viewDidLoad() {
 		super.viewDidLoad()
 
-		// Do any additional setup after loading the view.
+		if #available(OSX 10.12.2, *) {
+			text.allowsCharacterPickerTouchBarItem = false
+			text.isAutomaticTextCompletionEnabled = false
+		} else {
+			// Fallback on earlier versions
+		}
 	}
 
 	override var representedObject: Any? {

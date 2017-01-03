@@ -11,6 +11,7 @@
 		94897AFB1E1C4D96000F28CC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94897AFA1E1C4D96000F28CC /* ViewController.swift */; };
 		94897AFD1E1C4D96000F28CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 94897AFC1E1C4D96000F28CC /* Assets.xcassets */; };
 		94897B001E1C4D96000F28CC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 94897AFE1E1C4D96000F28CC /* Main.storyboard */; };
+		94897B081E1C553F000F28CC /* App.swift in Sources */ = {isa = PBXBuildFile; fileRef = 94897B071E1C553F000F28CC /* App.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +21,7 @@
 		94897AFC1E1C4D96000F28CC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		94897AFF1E1C4D96000F28CC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		94897B011E1C4D96000F28CC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		94897B071E1C553F000F28CC /* App.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = App.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +54,7 @@
 		94897AF71E1C4D96000F28CC /* Key Repeat Demo */ = {
 			isa = PBXGroup;
 			children = (
+				94897B071E1C553F000F28CC /* App.swift */,
 				94897AF81E1C4D96000F28CC /* AppDelegate.swift */,
 				94897AFA1E1C4D96000F28CC /* ViewController.swift */,
 				94897AFC1E1C4D96000F28CC /* Assets.xcassets */,
@@ -133,6 +136,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				94897B081E1C553F000F28CC /* App.swift in Sources */,
 				94897AFB1E1C4D96000F28CC /* ViewController.swift in Sources */,
 				94897AF91E1C4D96000F28CC /* AppDelegate.swift in Sources */,
 			);
@@ -192,7 +196,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = macosx;
@@ -235,7 +239,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				MACOSX_DEPLOYMENT_TARGET = 10.12;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = macosx;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
